@@ -4,7 +4,7 @@ const Header: React.FC = () => {
   return (
     <header className="h-14 border-b border-zinc-800 bg-[#050505]/50 backdrop-blur-md flex items-center justify-between px-8 shrink-0 z-10">
       <div className="flex items-center gap-4">
-        <span className="text-[10px] font-black text-zinc-500 uppercase tracking-widest">Internal Confidential</span>
+        <span className="text-[10px] font-black text-zinc-500 uppercase tracking-widest">Internal</span>
         <div className="w-1 h-1 bg-zinc-800 rounded-full"></div>
         <span className="text-[10px] font-black text-zinc-500 uppercase tracking-widest">TA Strategy 2026</span>
       </div>
@@ -18,7 +18,7 @@ const Header: React.FC = () => {
            ))}
         </div>
         <div className="bg-zinc-900 h-6 px-2 rounded flex items-center border border-zinc-800">
-          <span className="text-[8px] font-bold text-zinc-500 uppercase tracking-widest">v1.0.4-release</span>
+          <span className="text-[8px] font-bold text-zinc-500 uppercase tracking-widest"></span>
         </div>
       </div>
     </header>
