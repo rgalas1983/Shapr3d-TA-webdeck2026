@@ -17,7 +17,6 @@ const Header: React.FC = () => {
              </div>
            ))}
         </div>
-        <div className="bg-zinc-900 h-6 px-2 rounded flex items-center border border-zinc-800">
         </div>
       </div>
     </header>
