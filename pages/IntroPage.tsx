@@ -4,7 +4,7 @@ const IntroPage: React.FC<{onNext: () => void}> = ({ onNext }) => {
   return (
     <div className="space-y-16 py-8 animate-fade-in">
       <header className="space-y-6 max-w-4xl">
-        <div className="inline-block px-3 py-1 bg-blue-600/20 text-blue-500 text-[10px] font-bold uppercase tracking-[3px] rounded">Board Strategy 2026</div>
+        <div className="inline-block px-3 py-1 bg-blue-600/20 text-blue-500 text-[10px] font-bold uppercase tracking-[3px] rounded">Strategy 2026</div>
         <h1 className="text-6xl lg:text-8xl font-black text-white leading-tight tracking-tighter">
           Shapr3D <br/>
           <span className="text-zinc-700">Talent Strategy</span>
