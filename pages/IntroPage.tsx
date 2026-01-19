@@ -16,7 +16,7 @@ const IntroPage: React.FC<{onNext: () => void}> = ({ onNext }) => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 pt-12 border-t border-zinc-800">
         <div className="space-y-4">
-          <h2 className="text-blue-500 font-bold uppercase tracking-widest text-xs">Principal 01</h2>
+          <h2 className="text-blue-500 font-bold uppercase tracking-widest text-xs">Principal</h2>
           <p className="text-xl font-medium text-white">Inputs reflect reality, not aspiration</p>
           <p className="text-zinc-500 text-sm leading-relaxed">We acknowledge market constraints and signals before defining hiring targets.</p>
         </div>
