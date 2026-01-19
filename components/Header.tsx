@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="h-14 border-b border-zinc-800 bg-[#050505]/50 backdrop-blur-md flex items-center justify-between px-8 shrink-0 z-10">
+    <header className="h-14 border-b border-zinc-800 bg-[#050505] bg-opacity-50 backdrop-blur-md flex items-center justify-between px-8 shrink-0 z-10">
       <div className="flex items-center gap-4">
         <span className="text-[10px] font-black text-zinc-500 uppercase tracking-widest">Internal</span>
         <div className="w-1 h-1 bg-zinc-800 rounded-full"></div>
