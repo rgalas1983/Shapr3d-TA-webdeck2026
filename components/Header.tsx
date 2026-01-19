@@ -18,7 +18,6 @@ const Header: React.FC = () => {
            ))}
         </div>
         <div className="bg-zinc-900 h-6 px-2 rounded flex items-center border border-zinc-800">
-          <span className="text-[8px] font-bold text-zinc-500 uppercase tracking-widest"></span>
         </div>
       </div>
     </header>
